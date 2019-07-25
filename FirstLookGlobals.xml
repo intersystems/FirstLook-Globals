@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="IRIS" version="26" zv="IRIS for Windows (x86-64) 2018.2 (Build 471U)" ts="2019-04-30 10:33:26">
+<Class name="FirstLook.State">
+<Description>
+Information on U.S. States</Description>
+<Super>%Persistent</Super>
+<TimeChanged>65106,38563.721505</TimeChanged>
+<TimeCreated>65105,38509.45217</TimeCreated>
+
+<Property name="Name">
+<Description>
+Name of the state</Description>
+<Type>%String</Type>
+<Required>1</Required>
+</Property>
+
+<Property name="PostalAbbr">
+<Description>
+State's two-letter postal abbreviation</Description>
+<Type>%String</Type>
+</Property>
+
+<Property name="Capital">
+<Description>
+State capital</Description>
+<Type>%String</Type>
+</Property>
+
+<Property name="Established">
+<Description>
+Year state joined the union</Description>
+<Type>%Integer</Type>
+</Property>
+
+<Property name="Area">
+<Description>
+State area in square miles</Description>
+<Type>%Integer</Type>
+</Property>
+
+<Index name="PostalAbbrIndex">
+<Description>
+Index on postal abbreviation</Description>
+<Properties>PostalAbbr</Properties>
+<Unique>1</Unique>
+</Index>
+
+<Index name="CapitalIndex">
+<Description>
+Index on state capital</Description>
+<Properties>Capital</Properties>
+<Unique>1</Unique>
+</Index>
+
+</Class>
+</Export>
