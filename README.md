@@ -1,5 +1,5 @@
 # FirstLook-Globals
-This repository provides the sample class definition and data that you will need to work through the demo in <a href="http://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=AFL_globals">First Look: Globals</a>.
+This repository provides the sample class definition and data that you will need to work through the demo in <a href="https://learning.intersystems.com/course/view.php?name=QSGlobals ">Exploring Multiple Data Models with Globals</a>.
 
 Files in this sample include:
 
